@@ -41,11 +41,11 @@ public class UsuarioModelImpl implements IUsuarioModel {
         }
         return listaUsuario;
     }
-//        public static void main(String[] args){
-//        IUsuarioModel modelo = new UsuarioModelImpl();
-//        Usuario usuario = new Usuario();
-//        usuario.setNombre("Ivan");
-//        usuario.setContraseña("ivan12");
-//        modelo.insertarRegistro(usuario);
-//    }
+        public static void main(String[] args){
+        IUsuarioModel modelo = new UsuarioModelImpl();
+        Usuario usuario = new Usuario();
+        usuario.setNombre("Ivan");
+        usuario.setContraseña("ivan12");
+        modelo.insertarRegistro(usuario);
+    }
 }
